@@ -71,6 +71,7 @@ const processes = [
       isDev ? '' : '--neutrino.connect=127.0.0.1:18333',
       isDev ? '' : '--debuglevel=info',
       isDev ? '' : '--autopilot.active',
+      '--noencryptwallet',
     ],
   },
 ]
